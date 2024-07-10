@@ -20,3 +20,4 @@ Barbara Ramos - Graphic Designer - barbara-ramos-graphic-designer.jpg
 E ricordiamoci che console.log() è nostro amico!
 Buon lavoro!
 P.s. In allegato trovate un esempio di layout e le immagini da utilizzare
+
