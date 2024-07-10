@@ -38,3 +38,9 @@ let team = [
 for (let member in team) {
     console.log(`${team[member].nome} - ${team[member].ruolo} - ${team[member].foto}`)
 }
+
+// Stampo le informazioni del console.log dentro il DOM
+
+for (let member in team) {
+    document.getElementById('team').innerHTML += `${team[member].nome} - ${team[member].ruolo} - ${team[member].foto} <br/>`
+}
