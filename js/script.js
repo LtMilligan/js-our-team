@@ -32,3 +32,9 @@ let team = [
         foto: 'barbara-ramos-graphic-designer.jpg'
     }
 ]
+
+// Stampo a console le informazioni di ogni membro del team
+
+for (let member in team) {
+    console.log(`${team[member].nome} - ${team[member].ruolo} - ${team[member].foto}`)
+}
